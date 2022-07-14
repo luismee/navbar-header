@@ -1,0 +1,36 @@
+.card{
+    margin: 3rem;
+    height:500px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.overflow{
+    height:300px;
+    overflow:hidden;
+}
+.avatar-img{
+    width: 150px;
+    display:flex;
+}
+.avatar{
+    margin-top: -70px;
+}
+@media (max-width: 576px) {
+    .avatar{
+        margin-top: -180px;
+    }
+    .card{
+        height: 450px;
+    }
+}
+.btn-github{
+    color: #333333;
+    font-size: 25px;
+}
+.btn-ig{
+    color: #ac2bac;
+    font-size: 25px;
+}
+.btn-twitter{
+    color: #55acee;
+    font-size: 25px;
+}

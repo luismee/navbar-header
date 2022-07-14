@@ -1,0 +1,111 @@
+<div class="qualification section mb-5" id="qualification-container">
+  <h1 class="section-title h1 text-center mb-5">Qualifications</h1>
+
+
+  <div class="qualification-container container">
+    <div class="qualification-tab d-flex justify-content-evenly mb-5">
+      <div class="qualification-button lead ">
+        <i class="me-2 fa-solid fa-graduation-cap"></i>Education
+      </div>
+      <div class="qualification-button lead ">
+        <i class="me-2 fa-solid fa-briefcase"></i>Work
+      </div>
+    </div>
+
+    <div class="qualification-sections">
+      <!-- Qualification Content 1 -->
+      <div class="qualification-content qualification-active" data-content id="education">
+        <!-- QUALIFICATION 1 -->
+        <div class="qualification-data text-center">
+          <div>
+            <h3 class="qualification-title h3">{{qualificationsList[0].name}}</h3>
+            <p class="qualification-subtitle text-muted">USA - Wichita State University</p>
+            <div class="qualification-calendar">
+              <i class="fa-solid fa-calendar-days"></i>
+              {{qualificationsList.start}} - Expected Fall 2024
+            </div>
+          </div>
+          <div>
+            <span class="qualification-circle"></span>
+            <span class="qualification-line"></span>
+          </div>
+        </div>
+        <!-- QUALIFICATION 2 -->
+        <div class="qualification-data text-center">
+          <div></div>
+
+          <div>
+            <span class="qualification-circle"></span>
+            <span class="qualification-line"></span>
+          </div>
+
+          <div>
+            <h3 class="qualification-title h3">{{qualificationsList[1].name}}</h3>
+            <p class="qualification-subtitle text-muted ">Argentina - Argentina Programa BootCamp.</p>
+            <div class="qualification-calendar">
+              <i class="fa-solid fa-calendar-days"></i>
+              2021 - {{qualificationsList[1].end}}
+            </div>
+          </div>
+
+        </div>
+        <!-- QUALIFICATION 3 -->
+        <div class="qualification-data text-center">
+
+          <div>
+            <h3 class="qualification-title h3 ">BS Computer Engineering</h3>
+            <p class="qualification-subtitle text-muted ">Argentina - Universidad Nacional de La Plata.</p>
+            <div class="qualification-calendar">
+              <i class="fa-solid fa-calendar-days"></i>
+              2018 - 2020
+            </div>
+          </div>
+
+          <div>
+            <span class="qualification-circle"></span>
+            <!-- <span class="qualification-line"></span> -->
+          </div>
+
+        </div>
+
+      </div>
+      <!-- Qualification Content 2 -->
+      <div class="qualification-content " data-content id="work">
+        <!-- QUALIFICATION 1 -->
+        <div class="qualification-data text-center">
+          <div></div>
+
+          <div>
+            <span class="qualification-circle"></span>
+            <span class="qualification-line"></span>
+          </div>
+          <div>
+
+            <h3 class="qualification-title">Riversides Technologies INC</h3>
+            <p class="qualification-subtitle text-muted">USA - Wichita, Kansas.</p>
+            <div class="qualification-calendar">
+              <i class="fa-solid fa-calendar-days"></i>
+              2018 - 2020
+            </div>
+          </div>
+        </div>
+
+        <!-- Qualification 2 -->
+        <div class="qualification-data text-center">
+          <div>
+            <h3 class="qualification-title h3">Engineering Student Center of La Plata</h3>
+            <p class="qualification-subtitle text-muted">Argentina - La Plata, Buenos Aires.</p>
+            <div class="qualification-calendar">
+              <i class="fa-solid fa-calendar-days"></i>
+              2018 - 2020
+            </div>
+          </div>
+          <div>
+            <span class="qualification-circle"></span>
+            <!-- <span class="qualification-line"></span> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

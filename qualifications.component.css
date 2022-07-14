@@ -1,0 +1,46 @@
+.works-container{
+    margin: 3rem;
+}
+.works-img{
+    width:350px;
+    height: 300px;
+}
+.qualification-button{
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    color: #444;
+}
+.qualification-button:hover{
+    color: #0d6dfdd6;
+}
+.qualification-data{
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap:1.5rem;
+}
+.fa-calendar-days{
+    color: #444;
+    font-size: 18px;
+    margin-right: 5px;
+}
+.qualification-circle{
+    display:inline-block;
+    width:13px;
+    height: 13px;
+    background-color:#0d6dfd;
+    border-radius: 50%;
+}
+.qualification-line{
+    display:block;
+    width:1px;
+    height:100%;
+    background-color:#0d6dfdd6;
+    transform: translate(6px, -7px);
+}
+
+/* .qualification [data-content]{
+    display:none;
+}
+.qualification-active[data-content]{
+    display:block;
+} */
